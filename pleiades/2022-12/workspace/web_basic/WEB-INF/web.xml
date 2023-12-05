@@ -1,0 +1,86 @@
+<web-app>
+
+	<!--HelloServlet -->
+	<servlet>
+		<servlet-name>HelloServletMapping</servlet-name>
+		<servlet-class>ch03.HelloServlet</servlet-class>
+	</servlet>
+	<!-- SeasonServlet -->
+	<servlet>
+		<servlet-name>SeasonServletMapping</servlet-name>
+		<servlet-class>ch03.SeasonServlet</servlet-class>
+	</servlet>
+	<!-- GuessServlet -->
+	<servlet>
+		<servlet-name>GuessServletMapping</servlet-name>
+		<servlet-class>ch04.GuessServlet</servlet-class>
+	</servlet>
+	<!-- JapaneseServlet1 -->
+	<servlet>
+		<servlet-name>JapaneseServlet1Mapping</servlet-name>
+		<servlet-class>ch05.JapaneseServlet1</servlet-class>
+	</servlet>
+	<!-- JapaneseServlet2 -->
+	<servlet>
+		<servlet-name>JapaneseServlet2Mapping</servlet-name>
+		<servlet-class>ch05.JapaneseServlet2</servlet-class>
+	</servlet>
+	<!-- MimeTypeServlet1 -->
+	<servlet>
+		<servlet-name>MimeTypeServlet1Mapping</servlet-name>
+		<servlet-class>ch05.MimeTypeServlet1</servlet-class>
+	</servlet>
+	<!-- MimeTypeServlet2 -->
+	<servlet>
+		<servlet-name>MimeTypeServlet2Mapping</servlet-name>
+		<servlet-class>ch05.MimeTypeServlet2</servlet-class>
+	</servlet>
+	<!-- Practice0501Servlet -->
+	<servlet>
+		<servlet-name>Practice0501ServletMapping</servlet-name>
+		<servlet-class>ch05exercise.Practice0501Servlet</servlet-class>
+	</servlet>
+
+
+	<!-- HelloServlet -->
+	<servlet-mapping>
+		<servlet-name>HelloServletMapping</servlet-name>
+		<url-pattern>/HelloServlet</url-pattern>
+	</servlet-mapping>
+	<!-- SeasonServlet -->
+	<servlet-mapping>
+		<servlet-name>SeasonServletMapping</servlet-name>
+		<url-pattern>/SeasonServlet</url-pattern>
+	</servlet-mapping>
+	<!-- GuessServlet -->
+	<servlet-mapping>
+		<servlet-name>GuessServletMapping</servlet-name>
+		<url-pattern>/GuessServlet</url-pattern>
+	</servlet-mapping>
+	<!-- JapaneseServlet -->
+	<servlet-mapping>
+		<servlet-name>JapaneseServlet1Mapping</servlet-name>
+		<url-pattern>/JapaneseServlet1</url-pattern>
+	</servlet-mapping>
+	<!-- JapaneseServlet2 -->
+	<servlet-mapping>
+		<servlet-name>JapaneseServlet2Mapping</servlet-name>
+		<url-pattern>/JapaneseServlet2</url-pattern>
+	</servlet-mapping>
+	<!-- MimeTypeServlet1 -->
+	<servlet-mapping>
+		<servlet-name>MimeTypeServlet1Mapping</servlet-name>
+		<url-pattern>/MimeTypeServlet1</url-pattern>
+	</servlet-mapping>
+	<!-- MimeTypeServlet2 -->
+	<servlet-mapping>
+		<servlet-name>MimeTypeServlet2Mapping</servlet-name>
+		<url-pattern>/MimeTypeServlet2</url-pattern>
+	</servlet-mapping>
+	<!-- Practice0501Servlet -->
+	<servlet-mapping>
+		<servlet-name>Practice0501ServletMapping</servlet-name>
+		<url-pattern>/Practice0501Servlet</url-pattern>
+	</servlet-mapping>
+</web-app>
+	
